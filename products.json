@@ -1,0 +1,242 @@
+[
+  {
+    "name": "iPhone 15 Pro",
+    "price": 999,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-01T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "iPhone 15",
+    "price": 799,
+    "featured": true,
+    "rating": 4.7,
+    "createdAt": "2026-08-02T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "price": 899,
+    "featured": false,
+    "rating": 4.7,
+    "createdAt": "2026-08-03T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "iPhone 14",
+    "price": 699,
+    "featured": false,
+    "rating": 4.6,
+    "createdAt": "2026-08-04T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "iPhone 13",
+    "price": 599,
+    "featured": true,
+    "rating": 4.5,
+    "createdAt": "2026-08-05T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "MacBook Air M2",
+    "price": 1099,
+    "featured": true,
+    "rating": 4.9,
+    "createdAt": "2026-08-06T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "MacBook Pro 14",
+    "price": 1799,
+    "featured": true,
+    "rating": 4.9,
+    "createdAt": "2026-08-07T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "iPad Air",
+    "price": 599,
+    "featured": false,
+    "rating": 4.6,
+    "createdAt": "2026-08-08T10:00:00.000Z",
+    "company": "apple"
+  },
+  {
+    "name": "Samsung Galaxy S24 Ultra",
+    "price": 1299,
+    "featured": true,
+    "rating": 4.9,
+    "createdAt": "2026-08-09T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy S24",
+    "price": 899,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-10T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy S23",
+    "price": 749,
+    "featured": false,
+    "rating": 4.7,
+    "createdAt": "2026-08-11T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy A55",
+    "price": 449,
+    "featured": true,
+    "rating": 4.6,
+    "createdAt": "2026-08-12T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy A35",
+    "price": 349,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2026-08-13T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy Z Flip 6",
+    "price": 1099,
+    "featured": true,
+    "rating": 4.7,
+    "createdAt": "2026-08-14T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy Z Fold 6",
+    "price": 1899,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-15T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Samsung Galaxy Tab S9",
+    "price": 799,
+    "featured": false,
+    "rating": 4.6,
+    "createdAt": "2026-08-16T10:00:00.000Z",
+    "company": "samsung"
+  },
+  {
+    "name": "Dell XPS 15",
+    "price": 1499,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-17T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell XPS 13",
+    "price": 1199,
+    "featured": true,
+    "rating": 4.7,
+    "createdAt": "2026-08-18T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "price": 699,
+    "featured": false,
+    "rating": 4.4,
+    "createdAt": "2026-08-19T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell Inspiron 14",
+    "price": 649,
+    "featured": false,
+    "rating": 4.3,
+    "createdAt": "2026-08-20T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell Latitude 5440",
+    "price": 999,
+    "featured": true,
+    "rating": 4.5,
+    "createdAt": "2026-08-21T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell Alienware M16",
+    "price": 1999,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-22T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell G15 Gaming Laptop",
+    "price": 1199,
+    "featured": false,
+    "rating": 4.6,
+    "createdAt": "2026-08-23T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Dell UltraSharp Monitor",
+    "price": 549,
+    "featured": false,
+    "rating": 4.7,
+    "createdAt": "2026-08-24T10:00:00.000Z",
+    "company": "dell"
+  },
+  {
+    "name": "Xiaomi 14",
+    "price": 699,
+    "featured": true,
+    "rating": 4.7,
+    "createdAt": "2026-08-25T10:00:00.000Z",
+    "company": "mi"
+  },
+  {
+    "name": "Xiaomi 14 Ultra",
+    "price": 999,
+    "featured": true,
+    "rating": 4.8,
+    "createdAt": "2026-08-26T10:00:00.000Z",
+    "company": "mi"
+  },
+  {
+    "name": "Xiaomi Redmi Note 13 Pro",
+    "price": 349,
+    "featured": true,
+    "rating": 4.6,
+    "createdAt": "2026-08-27T10:00:00.000Z",
+    "company": "mi"
+  },
+  {
+    "name": "Xiaomi Redmi Note 13",
+    "price": 299,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2026-08-28T10:00:00.000Z",
+    "company": "mi"
+  },
+  {
+    "name": "Xiaomi Poco X6 Pro",
+    "price": 399,
+    "featured": true,
+    "rating": 4.6,
+    "createdAt": "2026-08-29T10:00:00.000Z",
+    "company": "mi"
+  },
+  {
+    "name": "Xiaomi Pad 6",
+    "price": 449,
+    "featured": false,
+    "rating": 4.5,
+    "createdAt": "2026-08-30T10:00:00.000Z",
+    "company": "mi"
+  }
+]
