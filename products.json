@@ -1,242 +1,891 @@
 [
   {
     "name": "iPhone 15 Pro",
-    "price": 999,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1592286927505-2fd7c7e0f1e4",
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a"
+    ],
+    "description": "The iPhone 15 Pro combines powerful performance with a premium titanium design, advanced camera capabilities, and a stunning high-resolution display.",
     "rating": 4.8,
-    "createdAt": "2026-08-01T10:00:00.000Z",
-    "company": "apple"
+    "category": "mobile",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 999,
+        "stock": 20,
+        "sku": "IPH15PRO-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 1099,
+        "stock": 15,
+        "sku": "IPH15PRO-BLU-256"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 1299,
+        "stock": 8,
+        "sku": "IPH15PRO-WHT-512"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "iPhone 15",
-    "price": 799,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    ],
+    "description": "The iPhone 15 delivers smooth performance, an excellent camera system, and a modern design suitable for everyday use.",
     "rating": 4.7,
-    "createdAt": "2026-08-02T10:00:00.000Z",
-    "company": "apple"
-  },
-  {
-    "name": "iPhone 14 Pro",
-    "price": 899,
-    "featured": false,
-    "rating": 4.7,
-    "createdAt": "2026-08-03T10:00:00.000Z",
-    "company": "apple"
+    "category": "mobile",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 799,
+        "stock": 30,
+        "sku": "IPH15-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 899,
+        "stock": 18,
+        "sku": "IPH15-BLU-256"
+      },
+      {
+        "color": "pink",
+        "size": "512GB",
+        "price": 1099,
+        "stock": 10,
+        "sku": "IPH15-PNK-512"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "iPhone 14",
-    "price": 699,
-    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1678685888221-cda773a3dcdb",
+      "https://images.unsplash.com/photo-1591337676887-a217a6970a8a"
+    ],
+    "description": "The iPhone 14 offers reliable performance, a vibrant display, advanced photography features, and dependable battery life.",
     "rating": 4.6,
-    "createdAt": "2026-08-04T10:00:00.000Z",
-    "company": "apple"
+    "category": "mobile",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 699,
+        "stock": 25,
+        "sku": "IPH14-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 799,
+        "stock": 16,
+        "sku": "IPH14-BLU-256"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 949,
+        "stock": 7,
+        "sku": "IPH14-WHT-512"
+      }
+    ],
+    "featured": false
   },
   {
     "name": "iPhone 13",
-    "price": 599,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1592286927505-2fd7c7e0f1e4",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    ],
+    "description": "The iPhone 13 provides strong everyday performance, an advanced dual-camera system, and a bright high-quality display.",
     "rating": 4.5,
-    "createdAt": "2026-08-05T10:00:00.000Z",
-    "company": "apple"
-  },
-  {
-    "name": "MacBook Air M2",
-    "price": 1099,
-    "featured": true,
-    "rating": 4.9,
-    "createdAt": "2026-08-06T10:00:00.000Z",
-    "company": "apple"
-  },
-  {
-    "name": "MacBook Pro 14",
-    "price": 1799,
-    "featured": true,
-    "rating": 4.9,
-    "createdAt": "2026-08-07T10:00:00.000Z",
-    "company": "apple"
-  },
-  {
-    "name": "iPad Air",
-    "price": 599,
-    "featured": false,
-    "rating": 4.6,
-    "createdAt": "2026-08-08T10:00:00.000Z",
-    "company": "apple"
+    "category": "mobile",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 599,
+        "stock": 22,
+        "sku": "IPH13-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 699,
+        "stock": 14,
+        "sku": "IPH13-BLU-256"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 799,
+        "stock": 6,
+        "sku": "IPH13-WHT-512"
+      }
+    ],
+    "featured": false
   },
   {
     "name": "Samsung Galaxy S24 Ultra",
-    "price": 1299,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf",
+      "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b31"
+    ],
+    "description": "The Galaxy S24 Ultra features powerful performance, a premium build, an advanced camera system, and a large immersive display.",
     "rating": 4.9,
-    "createdAt": "2026-08-09T10:00:00.000Z",
-    "company": "samsung"
+    "category": "mobile",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "256GB",
+        "price": 1299,
+        "stock": 18,
+        "sku": "S24U-BLK-256"
+      },
+      {
+        "color": "gray",
+        "size": "512GB",
+        "price": 1399,
+        "stock": 12,
+        "sku": "S24U-GRY-512"
+      },
+      {
+        "color": "blue",
+        "size": "1TB",
+        "price": 1599,
+        "stock": 5,
+        "sku": "S24U-BLU-1TB"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "Samsung Galaxy S24",
-    "price": 899,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b31",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+    ],
+    "description": "The Samsung Galaxy S24 combines modern design, powerful hardware, excellent cameras, and a smooth display experience.",
     "rating": 4.8,
-    "createdAt": "2026-08-10T10:00:00.000Z",
-    "company": "samsung"
+    "category": "mobile",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 899,
+        "stock": 25,
+        "sku": "S24-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 999,
+        "stock": 20,
+        "sku": "S24-BLU-256"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 1149,
+        "stock": 8,
+        "sku": "S24-WHT-512"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "Samsung Galaxy S23",
-    "price": 749,
-    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7",
+      "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf"
+    ],
+    "description": "The Galaxy S23 delivers fast performance, a compact premium design, excellent photography, and a bright AMOLED display.",
     "rating": 4.7,
-    "createdAt": "2026-08-11T10:00:00.000Z",
-    "company": "samsung"
+    "category": "mobile",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 749,
+        "stock": 20,
+        "sku": "S23-BLK-128"
+      },
+      {
+        "color": "green",
+        "size": "256GB",
+        "price": 849,
+        "stock": 15,
+        "sku": "S23-GRN-256"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 949,
+        "stock": 6,
+        "sku": "S23-WHT-512"
+      }
+    ],
+    "featured": false
   },
   {
     "name": "Samsung Galaxy A55",
-    "price": 449,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1610792516307-ea5acd9c3b31",
+      "https://images.unsplash.com/photo-1678911820864-e2c567c655d7"
+    ],
+    "description": "The Galaxy A55 provides a balanced smartphone experience with a large display, capable cameras, and long-lasting battery life.",
     "rating": 4.6,
-    "createdAt": "2026-08-12T10:00:00.000Z",
-    "company": "samsung"
-  },
-  {
-    "name": "Samsung Galaxy A35",
-    "price": 349,
-    "featured": false,
-    "rating": 4.5,
-    "createdAt": "2026-08-13T10:00:00.000Z",
-    "company": "samsung"
-  },
-  {
-    "name": "Samsung Galaxy Z Flip 6",
-    "price": 1099,
-    "featured": true,
-    "rating": 4.7,
-    "createdAt": "2026-08-14T10:00:00.000Z",
-    "company": "samsung"
-  },
-  {
-    "name": "Samsung Galaxy Z Fold 6",
-    "price": 1899,
-    "featured": true,
-    "rating": 4.8,
-    "createdAt": "2026-08-15T10:00:00.000Z",
-    "company": "samsung"
-  },
-  {
-    "name": "Samsung Galaxy Tab S9",
-    "price": 799,
-    "featured": false,
-    "rating": 4.6,
-    "createdAt": "2026-08-16T10:00:00.000Z",
-    "company": "samsung"
-  },
-  {
-    "name": "Dell XPS 15",
-    "price": 1499,
-    "featured": true,
-    "rating": 4.8,
-    "createdAt": "2026-08-17T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell XPS 13",
-    "price": 1199,
-    "featured": true,
-    "rating": 4.7,
-    "createdAt": "2026-08-18T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell Inspiron 15",
-    "price": 699,
-    "featured": false,
-    "rating": 4.4,
-    "createdAt": "2026-08-19T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell Inspiron 14",
-    "price": 649,
-    "featured": false,
-    "rating": 4.3,
-    "createdAt": "2026-08-20T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell Latitude 5440",
-    "price": 999,
-    "featured": true,
-    "rating": 4.5,
-    "createdAt": "2026-08-21T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell Alienware M16",
-    "price": 1999,
-    "featured": true,
-    "rating": 4.8,
-    "createdAt": "2026-08-22T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell G15 Gaming Laptop",
-    "price": 1199,
-    "featured": false,
-    "rating": 4.6,
-    "createdAt": "2026-08-23T10:00:00.000Z",
-    "company": "dell"
-  },
-  {
-    "name": "Dell UltraSharp Monitor",
-    "price": 549,
-    "featured": false,
-    "rating": 4.7,
-    "createdAt": "2026-08-24T10:00:00.000Z",
-    "company": "dell"
+    "category": "mobile",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 449,
+        "stock": 35,
+        "sku": "A55-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 499,
+        "stock": 25,
+        "sku": "A55-BLU-256"
+      },
+      {
+        "color": "white",
+        "size": "256GB",
+        "price": 499,
+        "stock": 12,
+        "sku": "A55-WHT-256"
+      }
+    ],
+    "featured": false
   },
   {
     "name": "Xiaomi 14",
-    "price": 699,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97"
+    ],
+    "description": "Xiaomi 14 delivers flagship-level performance, a vibrant display, advanced cameras, and a sleek premium design.",
     "rating": 4.7,
-    "createdAt": "2026-08-25T10:00:00.000Z",
-    "company": "mi"
+    "category": "mobile",
+    "company": "mi",
+    "variants": [
+      {
+        "color": "black",
+        "size": "256GB",
+        "price": 699,
+        "stock": 20,
+        "sku": "MI14-BLK-256"
+      },
+      {
+        "color": "blue",
+        "size": "512GB",
+        "price": 799,
+        "stock": 14,
+        "sku": "MI14-BLU-512"
+      },
+      {
+        "color": "white",
+        "size": "512GB",
+        "price": 799,
+        "stock": 9,
+        "sku": "MI14-WHT-512"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "Xiaomi 14 Ultra",
-    "price": 999,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97"
+    ],
+    "description": "The Xiaomi 14 Ultra offers premium flagship performance, an advanced camera setup, a beautiful display, and a refined design.",
     "rating": 4.8,
-    "createdAt": "2026-08-26T10:00:00.000Z",
-    "company": "mi"
+    "category": "mobile",
+    "company": "mi",
+    "variants": [
+      {
+        "color": "black",
+        "size": "512GB",
+        "price": 999,
+        "stock": 16,
+        "sku": "MI14U-BLK-512"
+      },
+      {
+        "color": "white",
+        "size": "1TB",
+        "price": 1149,
+        "stock": 8,
+        "sku": "MI14U-WHT-1TB"
+      }
+    ],
+    "featured": true
   },
   {
     "name": "Xiaomi Redmi Note 13 Pro",
-    "price": 349,
-    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+    ],
+    "description": "The Redmi Note 13 Pro combines a sharp display, capable cameras, smooth performance, and excellent value for everyday users.",
     "rating": 4.6,
-    "createdAt": "2026-08-27T10:00:00.000Z",
-    "company": "mi"
+    "category": "mobile",
+    "company": "mi",
+    "variants": [
+      {
+        "color": "black",
+        "size": "128GB",
+        "price": 349,
+        "stock": 30,
+        "sku": "RN13P-BLK-128"
+      },
+      {
+        "color": "blue",
+        "size": "256GB",
+        "price": 399,
+        "stock": 24,
+        "sku": "RN13P-BLU-256"
+      },
+      {
+        "color": "green",
+        "size": "256GB",
+        "price": 399,
+        "stock": 15,
+        "sku": "RN13P-GRN-256"
+      }
+    ],
+    "featured": true
   },
   {
-    "name": "Xiaomi Redmi Note 13",
-    "price": 299,
-    "featured": false,
-    "rating": 4.5,
-    "createdAt": "2026-08-28T10:00:00.000Z",
-    "company": "mi"
+    "name": "MacBook Pro 14",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9"
+    ],
+    "description": "The MacBook Pro 14 provides powerful performance for professional workloads with a premium design and high-quality display.",
+    "rating": 4.9,
+    "category": "laptop",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "gray",
+        "size": "16GB/512GB",
+        "price": 1799,
+        "stock": 12,
+        "sku": "MBP14-GRY-16-512"
+      },
+      {
+        "color": "black",
+        "size": "16GB/1TB",
+        "price": 1999,
+        "stock": 8,
+        "sku": "MBP14-BLK-16-1TB"
+      },
+      {
+        "color": "gray",
+        "size": "32GB/1TB",
+        "price": 2399,
+        "stock": 5,
+        "sku": "MBP14-GRY-32-1TB"
+      }
+    ],
+    "featured": true
   },
   {
-    "name": "Xiaomi Poco X6 Pro",
-    "price": 399,
-    "featured": true,
+    "name": "MacBook Air M2",
+    "images": [
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9",
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8"
+    ],
+    "description": "The MacBook Air M2 delivers excellent everyday performance in a thin and lightweight design with impressive battery life.",
+    "rating": 4.9,
+    "category": "laptop",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "gray",
+        "size": "8GB/256GB",
+        "price": 1099,
+        "stock": 20,
+        "sku": "MBA-M2-GRY-8-256"
+      },
+      {
+        "color": "blue",
+        "size": "16GB/512GB",
+        "price": 1399,
+        "stock": 12,
+        "sku": "MBA-M2-BLU-16-512"
+      },
+      {
+        "color": "white",
+        "size": "16GB/1TB",
+        "price": 1599,
+        "stock": 6,
+        "sku": "MBA-M2-WHT-16-1TB"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Dell XPS 15",
+    "images": [
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6",
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45"
+    ],
+    "description": "The Dell XPS 15 offers powerful computing performance, a premium design, and a large high-quality display for work and entertainment.",
+    "rating": 4.8,
+    "category": "laptop",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "16GB/512GB",
+        "price": 1499,
+        "stock": 15,
+        "sku": "XPS15-BLK-16-512"
+      },
+      {
+        "color": "gray",
+        "size": "32GB/1TB",
+        "price": 1799,
+        "stock": 8,
+        "sku": "XPS15-GRY-32-1TB"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Dell XPS 13",
+    "images": [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45",
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6"
+    ],
+    "description": "The Dell XPS 13 is a compact premium laptop designed for portability, productivity, and everyday computing.",
+    "rating": 4.7,
+    "category": "laptop",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "8GB/256GB",
+        "price": 1199,
+        "stock": 18,
+        "sku": "XPS13-BLK-8-256"
+      },
+      {
+        "color": "silver",
+        "size": "16GB/512GB",
+        "price": 1399,
+        "stock": 10,
+        "sku": "XPS13-SLV-16-512"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Dell Inspiron 15",
+    "images": [
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed",
+      "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6"
+    ],
+    "description": "The Dell Inspiron 15 is an affordable everyday laptop offering dependable performance for work, study, and entertainment.",
+    "rating": 4.4,
+    "category": "laptop",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "8GB/256GB",
+        "price": 699,
+        "stock": 25,
+        "sku": "INS15-BLK-8-256"
+      },
+      {
+        "color": "gray",
+        "size": "16GB/512GB",
+        "price": 849,
+        "stock": 14,
+        "sku": "INS15-GRY-16-512"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "name": "Dell Alienware M16",
+    "images": [
+      "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9",
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302"
+    ],
+    "description": "The Alienware M16 is a powerful gaming laptop designed for demanding games, high performance, and immersive entertainment.",
+    "rating": 4.8,
+    "category": "laptop",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "16GB/1TB",
+        "price": 1999,
+        "stock": 10,
+        "sku": "AWM16-BLK-16-1TB"
+      },
+      {
+        "color": "blue",
+        "size": "32GB/2TB",
+        "price": 2399,
+        "stock": 5,
+        "sku": "AWM16-BLU-32-2TB"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Dell G15 Gaming Laptop",
+    "images": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302",
+      "https://images.unsplash.com/photo-1593642634315-48f5414c3ad9"
+    ],
+    "description": "The Dell G15 is built for gaming with powerful hardware, an immersive display, and a durable performance-focused design.",
     "rating": 4.6,
-    "createdAt": "2026-08-29T10:00:00.000Z",
-    "company": "mi"
+    "category": "laptop",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "16GB/512GB",
+        "price": 1199,
+        "stock": 16,
+        "sku": "G15-BLK-16-512"
+      },
+      {
+        "color": "gray",
+        "size": "32GB/1TB",
+        "price": 1399,
+        "stock": 8,
+        "sku": "G15-GRY-32-1TB"
+      }
+    ],
+    "featured": false
   },
   {
-    "name": "Xiaomi Pad 6",
-    "price": 449,
-    "featured": false,
+    "name": "Mac Desktop Computer",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+      "https://images.unsplash.com/photo-1587831990711-23ca6441447b"
+    ],
+    "description": "A sleek desktop computer designed for productivity, creative work, and everyday computing with powerful hardware.",
+    "rating": 4.8,
+    "category": "computer",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "silver",
+        "size": "16GB/512GB",
+        "price": 2400,
+        "stock": 10,
+        "sku": "MACDESK-SLV-16-512"
+      },
+      {
+        "color": "gray",
+        "size": "32GB/1TB",
+        "price": 2800,
+        "stock": 5,
+        "sku": "MACDESK-GRY-32-1TB"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Dell Desktop Computer",
+    "images": [
+      "https://images.unsplash.com/photo-1587831990711-23ca6441447b",
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf"
+    ],
+    "description": "A dependable desktop computer designed for office work, productivity, browsing, and everyday computing tasks.",
     "rating": 4.5,
-    "createdAt": "2026-08-30T10:00:00.000Z",
-    "company": "mi"
+    "category": "computer",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "8GB/256GB",
+        "price": 899,
+        "stock": 20,
+        "sku": "DELDESK-BLK-8-256"
+      },
+      {
+        "color": "white",
+        "size": "16GB/512GB",
+        "price": 1099,
+        "stock": 12,
+        "sku": "DELDESK-WHT-16-512"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "name": "Dell UltraSharp Monitor",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2"
+    ],
+    "description": "A professional monitor designed for productivity and creative work with a sharp display and comfortable viewing experience.",
+    "rating": 4.7,
+    "category": "computer",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "27-inch",
+        "price": 549,
+        "stock": 18,
+        "sku": "U27-BLK-27"
+      },
+      {
+        "color": "white",
+        "size": "32-inch",
+        "price": 699,
+        "stock": 10,
+        "sku": "U32-WHT-32"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Samsung Curved Monitor",
+    "images": [
+      "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf",
+      "https://images.unsplash.com/photo-1585792180666-f7347c490ee2"
+    ],
+    "description": "A modern curved monitor designed for immersive viewing, productivity, gaming, and everyday entertainment.",
+    "rating": 4.6,
+    "category": "computer",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "27-inch",
+        "price": 699,
+        "stock": 15,
+        "sku": "SAMCURVE-BLK-27"
+      },
+      {
+        "color": "gray",
+        "size": "32-inch",
+        "price": 799,
+        "stock": 9,
+        "sku": "SAMCURVE-GRY-32"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "name": "Wireless Headphones",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944"
+    ],
+    "description": "Premium wireless headphones offering comfortable listening, clear audio, and a stylish design for everyday entertainment.",
+    "rating": 4.7,
+    "category": "accessories",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "Standard",
+        "price": 129,
+        "stock": 40,
+        "sku": "HEAD-BLK-STD"
+      },
+      {
+        "color": "white",
+        "size": "Standard",
+        "price": 129,
+        "stock": 35,
+        "sku": "HEAD-WHT-STD"
+      },
+      {
+        "color": "blue",
+        "size": "Standard",
+        "price": 129,
+        "stock": 20,
+        "sku": "HEAD-BLU-STD"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Wireless Earbuds",
+    "images": [
+      "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1",
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
+    ],
+    "description": "Compact wireless earbuds providing convenient everyday listening with a comfortable fit and clear sound quality.",
+    "rating": 4.5,
+    "category": "accessories",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "Standard",
+        "price": 89,
+        "stock": 45,
+        "sku": "EAR-BLK-STD"
+      },
+      {
+        "color": "white",
+        "size": "Standard",
+        "price": 89,
+        "stock": 30,
+        "sku": "EAR-WHT-STD"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "name": "Laptop Backpack",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62",
+      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3"
+    ],
+    "description": "A durable laptop backpack with practical storage space designed for work, study, travel, and everyday use.",
+    "rating": 4.4,
+    "category": "accessories",
+    "company": "dell",
+    "variants": [
+      {
+        "color": "black",
+        "size": "15-inch",
+        "price": 69,
+        "stock": 50,
+        "sku": "BAG-BLK-15"
+      },
+      {
+        "color": "gray",
+        "size": "17-inch",
+        "price": 79,
+        "stock": 30,
+        "sku": "BAG-GRY-17"
+      }
+    ],
+    "featured": false
+  },
+  {
+    "name": "Smart Watch Series 9",
+    "images": [
+      "https://images.unsplash.com/photo-1546868871-7041f2a55e12",
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26"
+    ],
+    "description": "A premium smartwatch featuring health tracking, notifications, fitness features, and a stylish design for everyday wear.",
+    "rating": 4.8,
+    "category": "watch",
+    "company": "apple",
+    "variants": [
+      {
+        "color": "black",
+        "size": "41mm",
+        "price": 399,
+        "stock": 18,
+        "sku": "WATCH9-BLK-41"
+      },
+      {
+        "color": "white",
+        "size": "45mm",
+        "price": 429,
+        "stock": 12,
+        "sku": "WATCH9-WHT-45"
+      },
+      {
+        "color": "blue",
+        "size": "45mm",
+        "price": 429,
+        "stock": 8,
+        "sku": "WATCH9-BLU-45"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Galaxy Watch 6",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1"
+    ],
+    "description": "The Galaxy Watch 6 combines fitness tracking, smart features, health monitoring, and a modern premium design.",
+    "rating": 4.7,
+    "category": "watch",
+    "company": "samsung",
+    "variants": [
+      {
+        "color": "black",
+        "size": "40mm",
+        "price": 299,
+        "stock": 20,
+        "sku": "GW6-BLK-40"
+      },
+      {
+        "color": "silver",
+        "size": "44mm",
+        "price": 329,
+        "stock": 14,
+        "sku": "GW6-SLV-44"
+      }
+    ],
+    "featured": true
+  },
+  {
+    "name": "Xiaomi Watch S3",
+    "images": [
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1",
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30"
+    ],
+    "description": "A stylish smartwatch offering fitness tracking, notifications, health features, and long-lasting everyday performance.",
+    "rating": 4.5,
+    "category": "watch",
+    "company": "mi",
+    "variants": [
+      {
+        "color": "black",
+        "size": "43mm",
+        "price": 199,
+        "stock": 25,
+        "sku": "MWS3-BLK-43"
+      },
+      {
+        "color": "silver",
+        "size": "47mm",
+        "price": 219,
+        "stock": 18,
+        "sku": "MWS3-SLV-47"
+      },
+      {
+        "color": "blue",
+        "size": "47mm",
+        "price": 219,
+        "stock": 10,
+        "sku": "MWS3-BLU-47"
+      }
+    ],
+    "featured": false
   }
 ]
