@@ -12,7 +12,10 @@ const cors=require('cors')
 
 
 const app = express();
-
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true
+}));
 app.use(express.json());
 app.use(morgan('dev')) //its a logger for logging how manay request are,its method and and req/sec
 app.use(cookieParser())
@@ -26,9 +29,6 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/wishlist", wishlistRoutes);
 app.use("/api/reviews", reviewRoutes);
-app.use(cors({
-    origin: "http://localhost:5173",
-    credentials: true
-}));
+
 
 module.exports = app;
