@@ -7,6 +7,8 @@ const cartRoutes = require("./routes/cart-routes");
 const orderRoutes = require("./routes/order-routes");
 const wishlistRoutes = require("./routes/wishlist-routes");
 const reviewRoutes = require("./routes/review-routes");
+const cors=require('cors')
+
 
 
 const app = express();
@@ -24,5 +26,9 @@ app.use("/api/cart", cartRoutes);
 app.use("/api/orders", orderRoutes);
 app.use("/api/wishlist", wishlistRoutes);
 app.use("/api/reviews", reviewRoutes);
+app.use(cors({
+    origin: "http://localhost:5173",
+    credentials: true
+}));
 
 module.exports = app;
