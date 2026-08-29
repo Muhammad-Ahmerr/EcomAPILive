@@ -147,7 +147,7 @@ exports.createOrder = async (req, res) => {
 
                 name: product.name,
 
-                image: product.images?.[0] || "",
+                image: variant.images?.[0] || product.images?.[0] || "",
 
                 color: variant.color || "",
 

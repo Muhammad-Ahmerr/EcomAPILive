@@ -10,6 +10,7 @@ const productSchema = new mongoose.Schema(
             maxlength: [150, "Name cannot exceed 150 characters"]
         },
 
+        // General product images
         images: {
             type: [String],
             default: []
@@ -90,6 +91,12 @@ const productSchema = new mongoose.Schema(
                     required: [true, "SKU is required"],
                     trim: true,
                     uppercase: true
+                },
+
+                // Images belonging specifically to this variant
+                images: {
+                    type: [String],
+                    default: []
                 }
             }
         ],
